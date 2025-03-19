@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="reglogstyle.css">
+</head>
+
+<body>
+  <div class="container" id="container">
+    <!-- navbar -->
+    <nav>
+        <div class="logo">
+            <h1>Classy Trends</h1>
+        </div>
+        <ul>
+            <li><a href="index.html" class="active">HOME</a></li>
+            <li><a href="#shop" id="shops">SHOP</a></li>
+            <li><a href="register.html" id="reviews">REGISTER/LOGIN</a></li>
+            <li><a href="#blog" id="blogs">ABOUT US</a></li>
+            <li><a href="#contact" id="contacts">CONTACT</a></li>
+
+        </ul>
+        <div class="icon">
+            <i id="bar" class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+<br><br>
+    <div class="container">
+        <h1>Login Page</h1>
+        <form method="post" 
+              action="login.php">
+            <label for="username">Username:</label>
+            <input type="text" 
+                   id="username" 
+                   name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" 
+                   id="password" 
+                   name="password" required>
+
+            <input type="submit" 
+                   value="Login">
+        </form>
+        <br><br>
+        <p> Does not have an account?
+            <a href="register.html">Register</a>
+        </p>
+    </div>
+</body>
+
+</html>
